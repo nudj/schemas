@@ -5,24 +5,24 @@ BIN:=./node_modules/.bin
 
 build:
 	@docker build \
-		-t test-image \
+		-t schema-image \
 		.
 
 test:
-	-@docker rm -f test-container 2> /dev/null || true
+	-@docker rm -f schema-container 2> /dev/null || true
 	@docker run --rm -it \
-		--name test-container \
+		--name schema-container \
 		-v $(CWD)/src/lib:/usr/src/lib \
 		-v $(CWD)/src/test:/usr/src/test \
-		test-image
+		schema-image
 
 tdd:
-	-@docker rm -f test-container 2> /dev/null || true
+	-@docker rm -f schema-container 2> /dev/null || true
 	@docker run --rm -it \
-		--name test-container \
+		--name schema-container \
     -v $(CWD)/src/lib:/usr/src/lib \
     -v $(CWD)/src/test:/usr/src/test \
-		test-image \
+		schema-image \
 		$(BIN)/nodemon \
 			--quiet \
 			--watch ./ \
