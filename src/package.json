@@ -1,0 +1,19 @@
+{
+  "name": "@nudj/schemas",
+  "version": "0.1.0",
+  "description": "nudj data schemas",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nudj/schemas.git"
+  },
+  "author": "Nick Collings",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nudj/schemas/issues"
+  },
+  "homepage": "https://github.com/nudj/schemas#readme"
+}
