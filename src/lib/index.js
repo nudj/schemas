@@ -1,3 +1,4 @@
 module.exports = {
-  company: require('./schemas/company.json')
+  company: require('./schemas/company'),
+  job: require('./schemas/job')
 }
