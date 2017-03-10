@@ -1,0 +1,54 @@
+module.exports = {
+  title: {
+    example: {
+      fn: 'title'
+    }
+  },
+  status: {
+    example: {
+      fn: 'choice',
+      args: [[
+        'Open',
+        'Filled'
+      ]]
+    }
+  },
+  bonus: {
+    example: {
+      fn: 'integer',
+      args: [0, 1000]
+    }
+  },
+  description: {
+    example: {
+      fn: 'description'
+    }
+  },
+  type: {
+    example: {
+      fn: 'choice',
+      args: [[
+        'Permanent',
+        'Contract',
+        'Freelance'
+      ]]
+    }
+  },
+  remuneration: {
+    example: {
+      fn: 'integer',
+      args: [25, 120]
+    }
+  },
+  tags: {
+    example: {
+      fn: 'array_of_words',
+      args: [3]
+    }
+  },
+  location: {
+    example: {
+      fn: 'city'
+    }
+  }
+}
