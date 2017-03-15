@@ -37,7 +37,7 @@ module.exports = {
       fn: 'slug',
       args: ['name']
     }
-  }
+  },
   size: {
     type: 'string',
     example: {
