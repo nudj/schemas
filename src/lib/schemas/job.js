@@ -4,6 +4,12 @@ module.exports = {
       fn: 'title'
     }
   },
+  slug: {
+    example: {
+      fn: 'slug',
+      args: ['title']
+    }
+  },
   status: {
     example: {
       fn: 'choice',
