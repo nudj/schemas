@@ -10,6 +10,11 @@ module.exports = {
       args: ['title']
     }
   },
+  url: {
+    example: {
+      fn: 'url'
+    }
+  },
   status: {
     example: {
       fn: 'choice',
