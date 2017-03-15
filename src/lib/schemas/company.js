@@ -31,6 +31,13 @@ module.exports = {
       fn: 'company_name'
     }
   },
+  slug: {
+    type: 'string',
+    example: {
+      fn: 'slug',
+      args: ['name']
+    }
+  }
   size: {
     type: 'string',
     example: {
