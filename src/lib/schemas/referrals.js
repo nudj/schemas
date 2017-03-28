@@ -10,5 +10,5 @@ module.exports = {
       fn: 'choice',
       args: [[1, 2, 3, 4, 5]]
     }
-  },
+  }
 }
