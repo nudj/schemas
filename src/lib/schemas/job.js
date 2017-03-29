@@ -65,7 +65,7 @@ module.exports = {
   companyId: {
     example: {
       fn: 'choice',
-      args: [[1, 2, 3, 4, 5]]
+      args: [['1', '2', '3', '4', '5']]
     }
   }
 }
