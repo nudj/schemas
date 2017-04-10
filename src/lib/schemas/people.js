@@ -14,10 +14,9 @@ module.exports = {
       fn: 'email'
     }
   },
-  urls: {
+  url: {
     example: {
-      fn: 'array_of_words',
-      args: [3]
+      fn: 'url'
     }
   },
   title: {
