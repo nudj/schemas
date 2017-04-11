@@ -54,5 +54,26 @@ module.exports = {
     example: {
       fn: 'url'
     }
+  },
+  facebook: {
+    type: 'string',
+    example: {
+      fn: 'replace',
+      args: ['http://facebook.com/{{word}}']
+    }
+  },
+  twitter: {
+    type: 'string',
+    example: {
+      fn: 'replace',
+      args: ['http://twitter.com/{{word}}']
+    }
+  },
+  linkedin: {
+    type: 'string',
+    example: {
+      fn: 'replace',
+      args: ['http://linkedin.com/{{word}}']
+    }
   }
 }
