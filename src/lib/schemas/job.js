@@ -87,6 +87,11 @@ module.exports = {
           example: {
             fn: 'city'
           }
+        },
+        companyName: {
+          example: {
+            fn: 'company_name'
+          }
         }
       }, 3]
     }
