@@ -47,8 +47,8 @@ module.exports = {
   },
   remuneration: {
     example: {
-      fn: 'integer',
-      args: [25, 120]
+      fn: 'words',
+      args: [3]
     }
   },
   tags: {
@@ -66,6 +66,29 @@ module.exports = {
     example: {
       fn: 'choice',
       args: [['1', '2', '3', '4', '5']]
+    }
+  },
+  related: {
+    example: {
+      fn: 'array_of_objects',
+      args: [{
+        url: {
+          example: {
+            fn: 'replace',
+            args: ['/{{word}}/{{word}}-{{word}}']
+          }
+        },
+        title: {
+          example: {
+            fn: 'title'
+          }
+        },
+        location: {
+          example: {
+            fn: 'city'
+          }
+        }
+      }, 3]
     }
   }
 }

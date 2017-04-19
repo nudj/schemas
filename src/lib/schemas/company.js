@@ -75,5 +75,10 @@ module.exports = {
       fn: 'replace',
       args: ['http://linkedin.com/{{word}}']
     }
+  },
+  description: {
+    example: {
+      fn: 'description'
+    }
   }
 }
