@@ -3,5 +3,6 @@ module.exports = {
   job: require('./schemas/job'),
   people: require('./schemas/people'),
   referrals: require('./schemas/referrals'),
-  applications: require('./schemas/applications')
+  applications: require('./schemas/applications'),
+  hirers: require('./schemas/hirers')
 }
