@@ -1,4 +1,18 @@
 module.exports = {
+  created: {
+    type: 'string',
+    example: {
+      fn: 'replace',
+      args: ['{{date}}T{{time}}.000+00:00']
+    }
+  },
+  modified: {
+    type: 'string',
+    example: {
+      fn: 'replace',
+      args: ['{{date}}T{{time}}.000+00:00']
+    }
+  },
   jobId: {
     example: {
       fn: 'choice',
