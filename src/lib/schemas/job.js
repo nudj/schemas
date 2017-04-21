@@ -1,4 +1,18 @@
 module.exports = {
+  created: {
+    type: 'string',
+    example: {
+      fn: 'replace',
+      args: ['{{date}}T{{time}}.000+00:00']
+    }
+  },
+  modified: {
+    type: 'string',
+    example: {
+      fn: 'replace',
+      args: ['{{date}}T{{time}}.000+00:00']
+    }
+  },
   title: {
     example: {
       fn: 'title'
@@ -19,8 +33,9 @@ module.exports = {
     example: {
       fn: 'choice',
       args: [[
-        'Open',
-        'Filled'
+        'Draft',
+        'Published',
+        'Archived'
       ]]
     }
   },
