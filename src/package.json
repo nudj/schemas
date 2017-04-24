@@ -1,6 +1,6 @@
 {
   "name": "@nudj/schemas",
-  "version": "0.11.0",
+  "version": "0.11.1",
   "description": "nudj data schemas",
   "main": "lib/index.js",
   "scripts": {

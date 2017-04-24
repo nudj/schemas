@@ -22,7 +22,7 @@ module.exports = {
   personId: {
     example: {
       fn: 'choice',
-      args: [['22']]
+      args: [['22', '23', '24']]
     }
   }
 }
