@@ -87,10 +87,16 @@ module.exports = {
     example: {
       fn: 'array_of_objects',
       args: [{
-        url: {
+        companySlug: {
           example: {
             fn: 'replace',
-            args: ['/{{word}}/{{word}}-{{word}}']
+            args: ['{{word}}-{{word}}']
+          }
+        },
+        slug: {
+          example: {
+            fn: 'replace',
+            args: ['{{word}}-{{word}}']
           }
         },
         title: {
