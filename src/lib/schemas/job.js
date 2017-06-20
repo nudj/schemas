@@ -85,7 +85,7 @@ module.exports = {
   },
   related: {
     example: {
-      fn: 'array_of_objects',
+      fn: 'schema[]',
       args: [{
         companySlug: {
           example: {
