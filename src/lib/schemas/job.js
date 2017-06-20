@@ -113,6 +113,12 @@ module.exports = {
           example: {
             fn: 'company_name'
           }
+        },
+        companyUrl: {
+          type: 'string',
+          example: {
+            fn: 'url'
+          }
         }
       }, 3]
     }
