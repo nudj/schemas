@@ -50,6 +50,22 @@ module.exports = {
       fn: 'description'
     }
   },
+  experience: {
+    example: {
+      fn: 'experience'
+    }
+  },
+  requirements: {
+    example: {
+      fn: 'requirements'
+    }
+  },
+  templateTags: {
+    example: {
+      fn: 'array_of_words',
+      args: [3]
+    }
+  },
   type: {
     example: {
       fn: 'choice',
